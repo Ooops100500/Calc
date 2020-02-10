@@ -1,0 +1,129 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+/*Шрифт*/
+@font-face{}
+@font-face{}
+@font-face{}
+/*Шрифт*/
+
+/* CSS CODE */
+
+/* multipurpose */
+.styleform {
+	width: 200px;
+	height: 50px;
+	border: 1px solid grey;
+	text-align: center;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.error--back {
+	background-color: rgba(170,66,71);
+	color: #fff;
+}
+.error--text {
+	color: #fff;
+}
+/* multipurpose */
+
+/*header*/
+/*header*/
+
+/*content*/
+
+.content {}
+.content__body {
+	max-width: 600px;
+	margin-top: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid grey;
+	background-color: #2222b7;
+}
+.form__calc {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.form__colum {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.inputX,
+.inputY {}
+
+.inputY {}
+.form__instruments {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.form__answer {
+	width: 200px;
+	margin-right: 22px;
+	border: 1px solid grey;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 5px;
+	color: black;
+}
+.form__block-button {
+	display: flex;
+	margin-left: 25px;
+}
+.form__button {
+	margin-right: 10px;
+	padding: 10px 52px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 5px;
+}
+.form__button:first-child {
+	background-color: #d0ab17;
+}
+.form__button:first-child:hover {
+	background-color: #ac8d11;#950c13
+}
+.form__button:last-child {
+	background-color: #bb010a;
+}
+.form__button:last-child:hover {
+	background-color: #950c13;
+}
+.selec {
+	padding: 12px 30px 12px 12px;
+	font-weight: bold;
+	font-size: 18px;
+	position: relative;
+	border-radius: 5px;
+	background-image: url('../img/icons/arrow-down-small.png');
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.selec__item {}
+/*content*/
+
+/*footer*/
+/*footer*/
