@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded",function() {
 		var valueY = check(inputY);
 		var selectOption = select.value;
 		var sum = 0;
-		if (valueX === false && valueY === false) {
+		if (valueX === false || valueY === false) {
 			sum = 'Упс';
 		} else {
 			if (selectOption === 'addition') {
@@ -61,7 +61,8 @@ document.addEventListener("DOMContentLoaded",function() {
 				sum = valueX * valueY;
 			}else if (selectOption === 'division') {
 				if (valueY === 0) {
-					sum = "На ноль делить нельзя"
+					error('Деление на 0', inputY);
+					sum = 'Упс';
 				} else {
 					sum = valueX / valueY;
 				}
